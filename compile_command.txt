@@ -1,0 +1,1 @@
+g++ -Wl,--whole-archive -lpthread -Wl,--no-whole-archive -pthread -static -static-libstdc++ test.cpp
